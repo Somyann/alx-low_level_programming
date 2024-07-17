@@ -1,10 +1,7 @@
-/*
- * File: 1-binary.c
- * Auth: Ibrahim Olanrewaju
- */
-
+#include <stdio.h>
+#include <stdlib.h>
+#include <stddef.h>
 #include "search_algos.h"
-
 /**
   * binary_search - This searches for a value in a sorted array
   *                 of integers using binary search.

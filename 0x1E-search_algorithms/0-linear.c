@@ -1,8 +1,6 @@
-/*
- * File: 0-linear.c
- * Auth: Ibrahim Olanrewaju
- */
-
+#include <stdio.h>
+#include <stdlib.h>
+#include <stddef.h>
 #include "search_algos.h"
 
 /**
