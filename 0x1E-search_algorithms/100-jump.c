@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <stddef.h>
 #include "search_algos.h"
-
 /**
   * jump_search - This searches for a value in a sorted array
   *               of integers using jump search.
