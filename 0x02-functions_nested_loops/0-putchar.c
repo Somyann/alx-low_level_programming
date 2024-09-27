@@ -1,23 +1,19 @@
-#include <stdio.h>
+#include "main.h"
 /**
  * _putchar - writes the character c to stdout
- * @c: The character to print
- *
+ * main -entry point of the code
  * Return: always 0(success)
  */
 
 int main(void)
 {
-int str[] = {95, 112, 117, 116, 99, 104, 97, 114};
-int count, sz;
-
-sz = sizeof(str) / sizeof(int);
-// Print each character in the string using a loop
-for (count = 0; count < sz; count++)
-{
-  _putchar(str[count]); // Call the _putchar function
-}
-_putchar('\n'); // Print a new line
-    
+_putchar('_');
+_putchar('p');
+_putchar('u');
+_putchar('t');
+_putchar('o');
+_putchar('h');
+_putchar('a');
+_putchar('\n');
 return (0);
 }

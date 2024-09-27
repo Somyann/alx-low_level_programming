@@ -1,7 +1,15 @@
-#ifndef MAIN_H
-#define MAIN_H
+#ifndef MAIN_HEADER_FILE
+#define MAIN_HEADER_FILE
+
 int _putchar(char c);
-print_alphabet();
+
+void print_alphabet(void);
+
+void print_alphabet_x10(void);
+
+int _islower(int c);
+
+int _isalpha(int c);
+
+int print_sign(int n);
 #endif
-
-
