@@ -1,7 +1,7 @@
 #include "main.h"
-/**
- * _putchar - writes the character c to stdout
- * main -entry point of the code
+/*
+ * main - Entry point of the code
+ *
  * Return: always 0(success)
  */
 
@@ -14,6 +14,7 @@ _putchar('t');
 _putchar('o');
 _putchar('h');
 _putchar('a');
+_putchar('r');
 _putchar('\n');
 return (0);
 }
